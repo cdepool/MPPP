@@ -6,7 +6,7 @@ export async function generateWelcomeMessage(name: string, area: string) {
     const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
-      contents: `Eres el líder del Movimiento por la Participación Popular (MPPP) en Venezuela. 
+      contents: `Eres el líder del Movimiento por la Participación Popular (MPP) en Venezuela. 
       Escribe un mensaje de bienvenida de exactamente 3 oraciones para un nuevo voluntario llamado ${name} 
       que se ha unido para aportar en el área de ${area}. 
       El tono debe ser conciliador, técnico, esperanzador y no confrontacional. 

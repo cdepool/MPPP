@@ -10,18 +10,18 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
             <span className="text-2xl font-extrabold tracking-tighter text-blue-600">
-              MPPP
+              MPP
             </span>
             <span className="hidden sm:block ml-3 text-sm font-semibold text-gray-500 uppercase tracking-widest">
               Participación Popular
             </span>
           </div>
-          
+
           <div className="hidden md:flex items-center space-x-8">
             <a href="#pilares" className="text-gray-600 hover:text-blue-600 transition-colors font-medium">Nosotros</a>
             <a href="#diferenciadores" className="text-gray-600 hover:text-blue-600 transition-colors font-medium">Propuesta</a>
-            <a 
-              href="#unete" 
+            <a
+              href="#unete"
               className="bg-blue-600 text-white px-5 py-2.5 rounded-full font-bold hover:bg-blue-700 transition-all shadow-md active:scale-95"
             >
               SER VOLUNTARIO
@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
           </div>
 
           <div className="md:hidden flex items-center">
-            <button 
+            <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-600 hover:text-blue-600 p-2"
             >
@@ -50,9 +50,9 @@ const Navbar: React.FC = () => {
         <div className="md:hidden bg-white border-b border-gray-100 px-4 py-4 space-y-4 animate-in slide-in-from-top duration-300">
           <a href="#pilares" onClick={() => setIsOpen(false)} className="block text-gray-700 font-medium">Nosotros</a>
           <a href="#diferenciadores" onClick={() => setIsOpen(false)} className="block text-gray-700 font-medium">Propuesta</a>
-          <a 
-            href="#unete" 
-            onClick={() => setIsOpen(false)} 
+          <a
+            href="#unete"
+            onClick={() => setIsOpen(false)}
             className="block w-full text-center bg-blue-600 text-white py-3 rounded-lg font-bold"
           >
             SER VOLUNTARIO

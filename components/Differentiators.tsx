@@ -22,7 +22,7 @@ const Differentiators: React.FC = () => {
               <span className="text-blue-600">Lo que NO somos</span>
             </h2>
             <p className="text-xl text-slate-600 mb-12 leading-relaxed font-medium">
-              La confianza se construye con honestidad radical. El MPPP nace para romper los vicios de la vieja política y proponer un camino donde el mérito valga más que el carnet.
+              La confianza se construye con honestidad radical. El MPP nace para romper los vicios de la vieja política y proponer un camino donde el mérito valga más que el carnet.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {items.map((item, i) => (

@@ -12,7 +12,7 @@ const PrivacyNotice: React.FC = () => {
                 <div>
                     <h4 className="font-bold text-blue-900 mb-1">Compromiso de Privacidad y Seguridad</h4>
                     <p className="text-sm text-blue-800 leading-relaxed">
-                        Tus datos son manejados bajo estrictos protocolos de seguridad y confidencialidad. El MPPP es una Asociación Civil legalmente constituida que garantiza que tu información será utilizada exclusivamente para la coordinación de actividades de voluntariado, protegiendo tu identidad en todo momento.
+                        Tus datos son manejados bajo estrictos protocolos de seguridad y confidencialidad. El MPP es una Asociación Civil legalmente constituida que garantiza que tu información será utilizada exclusivamente para la coordinación de actividades de voluntariado, protegiendo tu identidad en todo momento.
                     </p>
                 </div>
             </div>

@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-24">
           <div className="col-span-1 md:col-span-2">
             <h2 className="text-4xl font-black tracking-tight mb-8">
-              <span className="text-blue-500 font-black">MPPP</span>
+              <span className="text-blue-500 font-black">MPP</span>
               <span className="text-slate-500 ml-2">VENEZUELA</span>
             </h2>
             <p className="text-slate-400 text-xl max-w-sm mb-10 font-medium leading-relaxed">
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
             <span className="px-3 py-1 bg-white/5 rounded-full font-black text-[10px] tracking-widest uppercase">Democracia Real</span>
             <span className="px-3 py-1 bg-white/5 rounded-full font-black text-[10px] tracking-widest uppercase">Participación</span>
           </div>
-          <p className="font-medium italic">© 2024 MPPP Venezuela. La esperanza se organiza.</p>
+          <p className="font-medium italic">© 2024 MPP Venezuela. La esperanza se organiza.</p>
         </div>
       </div>
     </footer>

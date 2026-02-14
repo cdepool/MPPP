@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
               <div className="rounded-[32px] overflow-hidden shadow-inner aspect-[4/5] relative">
                 <img
                   src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&q=80&w=800"
-                  alt="Equipo MPPP trabajando"
+                  alt="Equipo MPP trabajando"
                   className="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-900/40 to-transparent opacity-60"></div>

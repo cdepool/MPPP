@@ -45,7 +45,7 @@ const Pillars: React.FC = () => {
           ¿Sientes que la política te dejó atrás?
         </h2>
         <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-20 font-medium">
-          El MPPP es tu espacio. Aquí no importa si votaste rojo o azul. Importa tu aporte para rescatar la Constitución y devolver la dignidad al trabajo venezolano.
+          El MPP es tu espacio. Aquí no importa si votaste rojo o azul. Importa tu aporte para rescatar la Constitución y devolver la dignidad al trabajo venezolano.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
