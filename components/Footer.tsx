@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <span className="text-blue-500">📧</span>
-                <span>unete@mppp.org.ve</span>
+                <span>unete@mpp.org.ve</span>
               </li>
               <li className="flex items-center space-x-3 font-bold text-white">
                 <span className="text-emerald-500">💬</span>
